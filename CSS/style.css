@@ -289,10 +289,10 @@ header .links ul li:hover {
   color: #777;
   line-height: 1.6;
 }
-.portfolio-content button {
-  grid-area: 2/ 2;
+.portfolio button {
+  display: block;
   width: fit-content;
-  margin: 30px auto 0;
+  margin: 60px auto 0;
   padding: 15px;
   border: none;
   border-radius: 4px;
@@ -301,7 +301,7 @@ header .links ul li:hover {
   color: white;
   transition: 0.3s;
 }
-.portfolio-content button:hover {
+.portfolio button:hover {
   background-color: var(--mainColor);
 }
 /* End portfolio */
